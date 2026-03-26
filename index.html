@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek K | Cybersecurity Portfolio</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Vivek K, a Computer Science Engineering student specializing in Cybersecurity and Software Development.">
+    <meta name="keywords" content="Cybersecurity, Software Developer, Problem Solver, C++, Java, Python, React.js, Security">
+    
+    <!-- Google Fonts: Space Grotesk & Inter for a modern tech feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="bracket">{</span> Vivek_K <span class="bracket">}</span>
+            </a>
+            
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#credentials" class="nav-link">Credentials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-anim"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello World, I am</p>
+                <h1 class="glitch" data-text="Vivek K">Vivek K</h1>
+                <h2 class="headline">
+                    <span class="typing-text">Cybersecurity Enthusiast | Software Developer | Problem Solver</span>
+                </h2>
+                <p class="tagline">"Securing Systems, Building Solutions"</p>
+                
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-shield-alt"></i> View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i> Contact Me
+                    </a>
+                    <a href="Vivek_K_CV_.pdf" class="btn btn-outline" download>
+                        <i class="fas fa-download"></i> Resume
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="cyber-circle">
+                    <div class="cyber-inner">
+                        <i class="fas fa-user-shield hero-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title"><span>01.</span> About_Me</h2>
+            <div class="about-grid">
+                <div class="about-text fade-in">
+                    <p>
+                        I am a B.Tech Computer Science student with a strong interest in cybersecurity and software development. I have hands-on experience in building secure applications, working with networking tools, and deploying containerized applications.
+                    </p>
+                    <p>
+                        I enjoy solving algorithmic problems and continuously improving my technical and analytical skills. My goal is to bridge the gap between robust software engineering and impenetrable security architectures.
+                    </p>
+                </div>
+                <div class="about-stats fade-in">
+                    <div class="stat-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>150+</h3>
+                        <p>C++ Problems Solved</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fab fa-python"></i>
+                        <h3>150+</h3>
+                        <p>Python Problems Solved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section bg-alt">
+        <div class="container">
+            <h2 class="section-title"><span>02.</span> Technical_Arsenal</h2>
+            
+            <div class="skills-container">
+                <!-- Programming -->
+                <div class="skill-category fade-in">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-cuttlefish"></i> C++</span>
+                        <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+                        <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                    </div>
+                </div>
+
+                <!-- Web Tech -->
+                <div class="skill-category fade-in" style="transition-delay: 100ms;">
+                    <div class="category-header">
+                        <i class="fas fa-globe"></i>
+                        <h3>Web Technologies</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-html5"></i> HTML</span>
+                        <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-tag"><i class="fab fa-react"></i> React.js</span>
+                    </div>
+                </div>
+
+                <!-- Cyber Tools -->
+                <div class="skill-category fade-in" style="transition-delay: 200ms;">
+                    <div class="category-header">
+                        <i class="fas fa-user-secret"></i>
+                        <h3>Cybersecurity</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Nmap</span>
+                        <span class="skill-tag">Wireshark</span>
+                        <span class="skill-tag">FTK-Imager</span>
+                    </div>
+                </div>
+
+                <!-- Platforms -->
+                <div class="skill-category fade-in" style="transition-delay: 300ms;">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Platforms & Tools</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-linux"></i> Linux</span>
+                        <span class="skill-tag">Podman</span>
+                        <span class="skill-tag">Nginx</span>
+                        <span class="skill-tag">systemd</span>
+                        <span class="skill-tag">Containers</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Soft Skills -->
+            <div class="soft-skills fade-in">
+                <h3>Soft Skills</h3>
+                <div class="skill-bar-container">
+                    <span class="soft-skill">Teamwork</span>
+                    <span class="soft-skill">Adaptability</span>
+                    <span class="soft-skill">Time Management</span>
+                    <span class="soft-skill">Active Listening</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title"><span>03.</span> Featured_Projects</h2>
+            
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <a href="https://github.com/Sampad2005/Fake-Document-Detection-System/tree/main" target="_blank" rel="noopener noreferrer" class="project-card fade-in">
+                    <div class="project-content">
+                        <div class="project-type">Security Application</div>
+                        <h3 class="project-title">Fake Document Detection System</h3>
+                        <div class="project-desc">
+                            <p>Built a robust system to detect forged documents using advanced pattern analysis and validation techniques. Developed the frontend interface using React.js for seamless document upload and real-time result display.</p>
+                        </div>
+                        <ul class="project-tech">
+                            <li>C++</li>
+                            <li>DSA</li>
+                            <li>React.js</li>
+                            <li>Cybersecurity Concepts</li>
+                        </ul>
+                    </div>
+                </a>
+
+                <!-- Project 2 -->
+                <a href="https://github.com/vivekk2005/Application-Deployment-Using-Containers" target="_blank" rel="noopener noreferrer" class="project-card fade-in" style="transition-delay: 100ms;">
+                    <div class="project-content">
+                        <div class="project-type">Infrastructure & DevOps</div>
+                        <h3 class="project-title">Application Deployment Using Containers</h3>
+                        <div class="project-desc">
+                            <p>Deployed scalable web applications utilizing Podman containers to enhance security and isolation. Expertly configured Nginx with bind mounts and automated management via systemd services.</p>
+                        </div>
+                        <ul class="project-tech">
+                            <li>Linux</li>
+                            <li>Podman</li>
+                            <li>Nginx</li>
+                            <li>Containers</li>
+                        </ul>
+                    </div>
+                </a>
+
+                <!-- Project 3 -->
+                <a href="https://github.com/vivekk2005/AI-Science-Fair-Project-Finder" target="_blank" rel="noopener noreferrer" class="project-card fade-in" style="transition-delay: 200ms;">
+                    <div class="project-content">
+                        <div class="project-type">Web Application</div>
+                        <h3 class="project-title">AI Science Fair Project Finder</h3>
+                        <div class="project-desc">
+                            <p>Architected and built a responsive web application designed to help users discover science projects. Focused on high usability and deployment efficiency to handle user queries effectively.</p>
+                        </div>
+                        <ul class="project-tech">
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credentials Section (Certifications + Education) -->
+    <section id="credentials" class="credentials section bg-alt">
+        <div class="container">
+            <h2 class="section-title"><span>04.</span> Credentials</h2>
+            
+            <div class="credentials-grid">
+                
+                <!-- Education Timeline -->
+                <div class="education fade-in">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>B.Tech in Computer Science and Engineering</h4>
+                                <span class="timeline-date">Lovely Professional University | 2023 - Present</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>12th Grade</h4>
+                                <span class="timeline-date">Completed | Score: 89%</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>10th Grade</h4>
+                                <span class="timeline-date">Completed | Score: 95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="certifications fade-in" style="transition-delay: 100ms;">
+                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    <ul class="cert-list">
+                        <li>
+                            <i class="fas fa-check-circle text-accent"></i>
+                            <div>
+                                <h4>Privacy and Security in Online Social Media</h4>
+                                <span>NPTEL</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle text-accent"></i>
+                            <div>
+                                <h4>Linux Fundamentals</h4>
+                                <span>LPU</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle text-accent"></i>
+                            <div>
+                                <h4>Fundamentals of Network Communication</h4>
+                                <span>Coursera</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle text-accent"></i>
+                            <div>
+                                <h4>Introduction to Hardware and OS</h4>
+                                <span>Coursera</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle text-accent"></i>
+                            <div>
+                                <h4>Bits and Bytes of Computer Networking</h4>
+                                <span>Coursera</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title"><span>05.</span> Establish_Connection</h2>
+            
+            <div class="contact-content fade-in">
+                <p class="contact-text">
+                    I am currently open to new opportunities, collaborations, and discussions around cybersecurity and software development. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                </p>
+                
+                <a href="mailto:vivekkannoth5678@gmail.com" class="btn btn-primary btn-large">
+                    <i class="fas fa-envelope"></i> Say Hello
+                </a>
+                
+                <div class="social-links mt-4">
+                    <a href="https://github.com/vivekk2005" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vivekkannoth/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>Designed & Built with <i class="fas fa-heart text-accent mx-1"></i> by Vivek K</p>
+                <p class="copyright">&copy; 2026 Vivek K. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
